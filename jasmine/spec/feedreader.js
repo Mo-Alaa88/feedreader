@@ -30,8 +30,8 @@ $(function() {
        // var body = document.body,
        // menu = document.getElementsByClassName(".menu-hidden");
        it("Check Hidden Menu",function(){
-           // expect(body.hasClass("menu-hidden")).toBe(true).
-           expect($('body').hasClass('menu-hidden')).toEqual(true);
+           expect($("body").hasClass("menu-hidden")).toBe(true);
+           // expect($('body').hasClass('menu-hidden')).toEqual(true);
        });
 
          
